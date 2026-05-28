@@ -1,16 +1,10 @@
+data/raw/reviews_full.csv
 
-
-data/raw/*
-!data/raw/.gitkeep
-
-
-data/processed/*
-!data/processed/dataset_stats.json
+data/processed/dataset_balanced_merged.json
 
 models/*
 !models/.gitkeep
 
-*.csv
 *.pt
 *.pth
 *.bin
