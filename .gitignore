@@ -1,8 +1,11 @@
+
+
 data/raw/*
 !data/raw/.gitkeep
 
+
 data/processed/*
-!data/processed/.gitkeep
+!data/processed/dataset_stats.json
 
 models/*
 !models/.gitkeep
