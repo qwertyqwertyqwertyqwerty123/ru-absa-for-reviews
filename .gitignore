@@ -1,15 +1,19 @@
 data/raw/reviews_full.csv
-
 data/processed/dataset_balanced_merged.json
 
-models/*
-!models/.gitkeep
-
+# Large model artifacts
+models/**/checkpoint-*/
 *.pt
 *.pth
 *.bin
 *.safetensors
+
 .env
 .venv/
 venv/
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/

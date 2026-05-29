@@ -1,0 +1,14 @@
+{
+  "model_name": "sentiment_model",
+  "base_model": "DeepPavlov/rubert-base-cased",
+  "task": "sentiment_classification",
+  "checkpoint_files": [
+    "config.json",
+    "model.safetensors",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json"
+  ],
+  "storage": "Not stored in GitHub. Store in Hugging Face Hub, Git LFS, cloud storage, or a local archive.",
+  "local_path": "models/sentiment_model/"
+}

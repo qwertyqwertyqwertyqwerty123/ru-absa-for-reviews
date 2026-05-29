@@ -1,0 +1,7 @@
+{
+  "base_model": "DeepPavlov/rubert-base-cased",
+  "task": "sentiment_classification",
+  "max_length": 256,
+  "seed": 42,
+  "checkpoint_dir": "models/sentiment_model"
+}
